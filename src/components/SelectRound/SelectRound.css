@@ -1,0 +1,26 @@
+form {
+  position: fixed;
+  z-index: 2;
+  top: 90px;
+  left: 208px;
+}
+
+select {
+  padding: .5rem;
+  background: var(--premier-primary);
+  color: #fff;
+  border: 0;
+}
+
+.select-round {
+  background-color: var(--premier-secondary);
+  color: #fff;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  form {
+    right: 1rem;
+    left: unset;
+  }
+}
